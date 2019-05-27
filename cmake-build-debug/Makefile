@@ -123,6 +123,33 @@ union_find_JosephPenaQuino/fast:
 	$(MAKE) -f CMakeFiles/union_find_JosephPenaQuino.dir/build.make CMakeFiles/union_find_JosephPenaQuino.dir/build
 .PHONY : union_find_JosephPenaQuino/fast
 
+UnionFind.o: UnionFind.cpp.o
+
+.PHONY : UnionFind.o
+
+# target to build an object file
+UnionFind.cpp.o:
+	$(MAKE) -f CMakeFiles/union_find_JosephPenaQuino.dir/build.make CMakeFiles/union_find_JosephPenaQuino.dir/UnionFind.cpp.o
+.PHONY : UnionFind.cpp.o
+
+UnionFind.i: UnionFind.cpp.i
+
+.PHONY : UnionFind.i
+
+# target to preprocess a source file
+UnionFind.cpp.i:
+	$(MAKE) -f CMakeFiles/union_find_JosephPenaQuino.dir/build.make CMakeFiles/union_find_JosephPenaQuino.dir/UnionFind.cpp.i
+.PHONY : UnionFind.cpp.i
+
+UnionFind.s: UnionFind.cpp.s
+
+.PHONY : UnionFind.s
+
+# target to generate assembly for a file
+UnionFind.cpp.s:
+	$(MAKE) -f CMakeFiles/union_find_JosephPenaQuino.dir/build.make CMakeFiles/union_find_JosephPenaQuino.dir/UnionFind.cpp.s
+.PHONY : UnionFind.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -150,6 +177,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/union_find_JosephPenaQuino.dir/build.make CMakeFiles/union_find_JosephPenaQuino.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+main_test.o: main_test.cpp.o
+
+.PHONY : main_test.o
+
+# target to build an object file
+main_test.cpp.o:
+	$(MAKE) -f CMakeFiles/union_find_JosephPenaQuino.dir/build.make CMakeFiles/union_find_JosephPenaQuino.dir/main_test.cpp.o
+.PHONY : main_test.cpp.o
+
+main_test.i: main_test.cpp.i
+
+.PHONY : main_test.i
+
+# target to preprocess a source file
+main_test.cpp.i:
+	$(MAKE) -f CMakeFiles/union_find_JosephPenaQuino.dir/build.make CMakeFiles/union_find_JosephPenaQuino.dir/main_test.cpp.i
+.PHONY : main_test.cpp.i
+
+main_test.s: main_test.cpp.s
+
+.PHONY : main_test.s
+
+# target to generate assembly for a file
+main_test.cpp.s:
+	$(MAKE) -f CMakeFiles/union_find_JosephPenaQuino.dir/build.make CMakeFiles/union_find_JosephPenaQuino.dir/main_test.cpp.s
+.PHONY : main_test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... union_find_JosephPenaQuino"
 	@echo "... edit_cache"
+	@echo "... UnionFind.o"
+	@echo "... UnionFind.i"
+	@echo "... UnionFind.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... main_test.o"
+	@echo "... main_test.i"
+	@echo "... main_test.s"
 .PHONY : help
 
 

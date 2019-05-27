@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/union_find_JosephPenaQuino.dir/main.cpp.o  -o union_find_JosephPenaQuino 
+/usr/bin/c++  -g   CMakeFiles/union_find_JosephPenaQuino.dir/main.cpp.o CMakeFiles/union_find_JosephPenaQuino.dir/main_test.cpp.o CMakeFiles/union_find_JosephPenaQuino.dir/UnionFind.cpp.o  -o union_find_JosephPenaQuino 

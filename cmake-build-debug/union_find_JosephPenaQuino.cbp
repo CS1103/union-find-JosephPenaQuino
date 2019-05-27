@@ -84,7 +84,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/joseph/Documents/s2k191/POO2/Lectures/Lesson10/union-find-JosephPenaQuino/UnionFind.cpp">
+			<Option target="union_find_JosephPenaQuino"/>
+		</Unit>
+		<Unit filename="/home/joseph/Documents/s2k191/POO2/Lectures/Lesson10/union-find-JosephPenaQuino/UnionFind.h">
+			<Option target="union_find_JosephPenaQuino"/>
+		</Unit>
 		<Unit filename="/home/joseph/Documents/s2k191/POO2/Lectures/Lesson10/union-find-JosephPenaQuino/main.cpp">
+			<Option target="union_find_JosephPenaQuino"/>
+		</Unit>
+		<Unit filename="/home/joseph/Documents/s2k191/POO2/Lectures/Lesson10/union-find-JosephPenaQuino/main.h">
+			<Option target="union_find_JosephPenaQuino"/>
+		</Unit>
+		<Unit filename="/home/joseph/Documents/s2k191/POO2/Lectures/Lesson10/union-find-JosephPenaQuino/main_test.cpp">
 			<Option target="union_find_JosephPenaQuino"/>
 		</Unit>
 		<Unit filename="/home/joseph/Documents/s2k191/POO2/Lectures/Lesson10/union-find-JosephPenaQuino/CMakeLists.txt">
